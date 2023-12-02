@@ -201,8 +201,6 @@ margin-top:50px;
 
 }
 
-
-
 /* start trending section */
 
 .trending__collection {
@@ -314,7 +312,6 @@ margin-top:50px;
   display: flex;
   align-items: center;
 
-
 }
 
 .creator__button p {
@@ -342,7 +339,6 @@ margin-top:50px;
 
 }
 
-
 .dot {
   height: 30px;
   width: 30px;
@@ -364,9 +360,7 @@ margin-top:50px;
   border-radius: 20px;
   background-color: var(--card-color) 
 
-
 }
-
 
 .creator__name {
   color:var(--text-color);
@@ -379,9 +373,9 @@ margin-top:50px;
   color:var(--number-color);
   margin-left: 3%;
   padding:3%;
-
   
 }
+
 .creator__card p { 
   color:var(--text-color);
   font-size: var(--font-standard);
@@ -609,8 +603,6 @@ display: inline;
   color:var(--text-color);
   padding: 20px, 30px, 25px, 30px;
 
-
-
 } 
 
 .work__card{
@@ -706,10 +698,9 @@ display: inline;
 
 .btn__subscribe {
 border-radius: 20px;
-
-
   
 }
+
 .btn__name {
   position: absolute; 
   height: 60px;
@@ -725,7 +716,6 @@ border-radius: 20px;
   border-radius: 20px;
   width: 211px;
   font-size: var(--font-standard);
-
 
 }
 
@@ -805,30 +795,3 @@ border-radius: 20px;
   line-height: 13px;
   letter-spacing: 0em;
 }
-
-
-/* 600px ამდე დაედება მხოლოდ
-@media only screen and (min-width: 600px) {
-  body {
-    background-color: red;
-  }
-}
-
-/* 800 პიქსელიდან დაედება მხოლოდ */
-/* @media only screen and (max-width: 850px) {
-  body {
-    background-color: blueviolet;
-  }
-/* } */
-
-/* @media only screen and (orientation: landscape) {
-  body {
-    background-color: lightblue;
-  }
-}
-
-@media only screen and (orientation: portrait) {
-  body {
-    background-color: red;
-  }
-} */
