@@ -647,14 +647,43 @@ padding: 60px;
 
  }
 
+.join__heading {
+  font-size:var(--font-large);
+/* font-weight: 600; */
+/* line-height: 46px; */
+/* letter-spacing: 0em; */
+/* text-align: left; */
 
+}
+.join__paragraph {
+  font-size:22px;
+}
+
+input {
+  border-radius: 20px;
+  width: 425px;
+  height:60px;
+  padding: 16px, 0px, 16px, 20px;
+}
+
+
+.input__button {
+  /* border-radius: 20px; */
+}
 
 
  .button__subscribe {
   color:var(--text-color);
   background-color: var(--background-button);
   border-radius: 20px;
+  width: 211px;
+  height:60px;
+  padding: 0px, 50px, 0px, 50px;
+
  }
+ 
+ 
+ 
 
 
 
