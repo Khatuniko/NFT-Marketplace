@@ -189,7 +189,7 @@ margin-top:50px;
   font-size: 22px;
 }
 
-.card-body{
+.hero__card__body{
   margin:10px 20px;
   font-size: var(--font-standard);
   height:109px;
@@ -357,7 +357,6 @@ margin-top:50px;
   font-size:16px;
 
 }
-
 .creator__card {
   width: 240px;
   height: 238px;
@@ -378,11 +377,14 @@ margin-top:50px;
 }
 .creator__card span {
   color:var(--number-color);
+  margin-left: 3%;
+  padding:3%;
 
   
 }
 .creator__card p { 
   color:var(--text-color);
+  font-size: var(--font-standard);
   
 }
 
@@ -425,11 +427,18 @@ margin-top:50px;
 }
 
 .browse__card {
-  background-color: red;
   border-radius: 20px;
   background-color: var(--card-color);
   
 
+}
+
+
+.card-body {
+  height: 70px;
+  font-size: var(--font-standard);
+  margin-top:10%;
+  margin-left:8%;
 }
 
 /* discover section start */
@@ -441,6 +450,7 @@ margin-top:50px;
   margin-right: 21%;
 
 }
+
 
 
 .discover__heading {
@@ -795,3 +805,30 @@ border-radius: 20px;
   line-height: 13px;
   letter-spacing: 0em;
 }
+
+
+/* 600px ამდე დაედება მხოლოდ
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: red;
+  }
+}
+
+/* 800 პიქსელიდან დაედება მხოლოდ */
+/* @media only screen and (max-width: 850px) {
+  body {
+    background-color: blueviolet;
+  }
+/* } */
+
+/* @media only screen and (orientation: landscape) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+@media only screen and (orientation: portrait) {
+  body {
+    background-color: red;
+  }
+} */
